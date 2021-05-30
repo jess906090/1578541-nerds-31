@@ -3,11 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="img/favicon/152.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="img/favicon/180.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    </head>
   <body>
 <header> 
   <nav>
     <a>
-      <img src="img/index-logo.svg" width="159" height="65" alt="логотип студии">
+      <img src="img/nerds-logo.svg" width="159" height="65" alt="логотип студии">
     </a>
     <ul>
       <li><a href="blank.html">Студия</a></li>
@@ -20,16 +25,25 @@
 </header>
  <main>
   <section>
-    <div class="slider">
-      <input type="radio" id="slide-1" name="slider-radio" checked>
-      <input type="radio" id="slide-2" name="slider-radio">
-      <input type="radio" id="slide-3" name="slider-radio">
+    <section>
+      <div class="slider">
+        <input type="radio" id="btn-1" name="toggle" checked>
+        <input type="radio" id="btn-2" name="toggle">
+        <input type="radio" id="btn-3" name="toggle">
+        <div class="slider-controls">
+          <label for="btn-1"></label>
+          <label for="btn-2"></label>
+          <label for="btn-3"></label>
+        </div>
+        <div class="slider-inner">
+          <div class="slider-slides">
+            <img src="/img/nerds-index-slide1 1.png" width="1157" height="431">
+            <img src="/img/nerds-index-slide2 2.png" width="1157" height="431">
+            <img src="/img/nerds-index-slide3 3.png" width="1157" height="431">
+          </div>
+        </div>
       </div>
-    <div class="slider-controls">
-      <label class for="slide-1">Слайд 1</label>
-      <label class for="slide-2">Слайд 2</label>
-      <label class for="slide-3">Слайд 3</label>
-    </div>
+    </section>
          <div class="slide-content-1">
             <h1>Долго, дорого,<br>скрупулезно.</h1>
             <p>Математически выверенный дизайн<br>для вашего сайта или мобильного приложения.</p>
@@ -52,16 +66,19 @@
     <li>
       <h3>Веб-сайты</h3>
       <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+      <img src="img/illustration-1 1.png" width="300" height="146">
       <button type="button">Заказать</button>
     </li>
     <li>
       <h3>Приложения</h3>
        <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+       <img src="img/illustration-2 1.png"  width="300" height="146">
        <button type="button">Заказать</button>
     </li>
     <li>
       <h3>Презентации</h3>
        <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+       <img src="img/illustration-3 1.png"  width="300" height="146">
        <button type="button">Заказать</button>
     </li>
    </ul>
@@ -87,7 +104,7 @@
    </ul>
   </div>
   <div>
-  <img src="nerds-illustration.png" width="360" height="208" alt="Логотип">
+  <img src="img/nerds-illustration 1.svg" width="360" height="208" alt="Логотип">
   </div>
   <div>
   <p>C 2004 года Любим точность во всем:</p>
@@ -108,19 +125,19 @@
    <ul>
     <li>
       <a href="#">
-        <img src="img/logo_htmlacademy 1.png" width="199" height="57.6" alt="HTML"></a>
+        <img src="img/logo_htmlacademy 1.svg" width="199" height="57.6" alt="HTML"></a>
     </li>
     <li>
       <a href="#">
-        <img src="img/logo-2.png" width="209" height="90" alt="Барбершоп Бородинский"></a> 
+        <img src="img/logo-2 1.svg" width="209" height="90" alt="Барбершоп Бородинский"></a> 
     </li>
     <li>
       <a href="#">
-        <img src="img/logo-3.png" width="182" height="55" alt="Pink"></a>    
+        <img src="img/group 12.svg" width="182" height="55" alt="Pink"></a>    
     </li>
     <li>
       <a href="#">
-        <img src="img/logo-4.png" width="173" height="84" alt="Michka"></a>    
+        <img src="img/logo-4 1.svg" width="173" height="84" alt="Michka"></a>    
     </li>
   </ul>
 </section>
@@ -134,7 +151,7 @@
         5 лит П, Санкт-Петербург<br>
         Телефон: <a href="tel:+78005558628">+7 800 555-86-28</a>
       </p>
-      <img src="img/map1.png" width="1440" height="416" alt="Карта"></a>
+      <img src="img/map 1.png" width="1440" height="416" alt="Карта"></a>
       <button type="button">напишите нам</button>
     <section>
       <ul>
