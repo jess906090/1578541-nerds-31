@@ -7,53 +7,62 @@
 <header> 
   <nav>
     <a>
-      <img src="img/index-logo.svg" width="159,87" height="65,02" alt="логотип студии">
+      <img src="img/index-logo.svg" width="159" height="65" alt="логотип студии">
     </a>
     <ul>
-      <li><a href="#">Студия</a></li>
-      <li><a href="#">Клиенты</a></li>
+      <li><a href="blank.html">Студия</a></li>
+      <li><a href="blank.html">Клиенты</a></li>
       <li><a href="catalog.html">Магазин</a></li>
-      <li><a href="#">Контакты</a></li>
+      <li><a href="blank.html">Контакты</a></li>
     </ul>
     <a href="blank.html">корзина</a>
   </nav>
 </header>
  <main>
+  <section>
     <div class="slider">
-      <h1>Долго, дорого, скрупулезно.</h1>
-      <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-      <button>Узнать больше</button>
+      <input type="radio" id="slide-1" name="slider-radio" checked>
+      <input type="radio" id="slide-2" name="slider-radio">
+      <input type="radio" id="slide-3" name="slider-radio">
+      </div>
+    <div class="slider-controls">
+      <label class for="slide-1">Слайд 1</label>
+      <label class for="slide-2">Слайд 2</label>
+      <label class for="slide-3">Слайд 3</label>
     </div>
-    <div class="slider-switch">
-      <ul>
-        <li class="active">
-          <i>Слайд 1</i>
-        </li>
-        <li>
-          <i>Слайд 2</i>
-        </li>
-        <li>
-          <i>Слайд 3</i>
-        </li>
-      </ul>
-    </div>
- <section>
+         <div class="slide-content-1">
+            <h1>Долго, дорого,<br>скрупулезно.</h1>
+            <p>Математически выверенный дизайн<br>для вашего сайта или мобильного приложения.</p>
+            <button type="button">Узнать больше</button>
+          </div>
+          <div class="slide-content-2">
+            <h1>Любим математику<br>как никто другой</h1>
+            <p>Никакого креатива, только математические формулы<br>для расчета идеальных пропорций.</p>
+            <button type="button">Узнать больше</button>
+          </div>
+          <div class="slide-content-3">
+            <h1>Только ночь,<br>только хардкор</h1>
+            <p>Работать днем, как все? Мы против этого.<br>Ближе к полуночи работа только начинается.</p>
+            <button type="button">Узнать больше</button>
+          </div>
+  </section>
+  <section>
   </h2>Услуги</h2>
   <ul>
     <li>
       <h3>Веб-сайты</h3>
       <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-      <button>Заказать</button>
+      <button type="button">Заказать</button>
     </li>
     <li>
       <h3>Приложения</h3>
        <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-      <button>Заказать</button>
+       <button type="button">Заказать</button>
     </li>
     <li>
       <h3>Презентации</h3>
        <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-      <button>Заказать</button>
+       <button type="button">Заказать</button>
     </li>
    </ul>
   </section>
@@ -82,18 +91,16 @@
   </div>
   <div>
   <p>C 2004 года Любим точность во всем:</p>
-  <table>
-    <tr>
-      <td>146%</td>
-      <td>100%</td>
-      <td>50%</td>
-    </tr>
-    <tr>
-      <td>Уровень самоотдачи</td>
-      <td>Соблюдение сроков</td>
-      <td>Минимальная предоплата</td>
-    </tr>
-  </table>
+    <ul>
+      <li>146%</li>
+      <li>100%</td>
+      <li>50%</li>
+      </ul>
+    <ul>
+      <li>Уровень самоотдачи</li>
+      <li>Соблюдение сроков</li>
+      <li>Минимальная предоплата</li>
+    </ul>
   </div>
  </section>
  <section>
@@ -128,7 +135,7 @@
         Телефон: <a href="tel:+78005558628">+7 800 555-86-28</a>
       </p>
       <img src="img/map1.png" width="1440" height="416" alt="Карта"></a>
-      <button>Напишите нам</button>
+      <button type="button">напишите нам</button>
     <section>
       <ul>
         <li>
@@ -151,7 +158,7 @@
       <form action="https://echo.htmlacademy.ru" method="post">
       </form>
         <input type="text" name="name" placeholder="имя фамилия">
-      <p>Ваш e-m=mail</p>
+      <label>Ваш e-m=mail</label>
         <input type="email" name="email" placeholder="email@example.com">
         <p>Текст письма</p>
         <textarea name="message" placeholder="В свободной форме"></textarea> 
