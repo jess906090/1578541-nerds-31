@@ -1,14 +1,73 @@
 :root {
----basic-black: 000000;
----basic-white: FFFFFF;
----basic-light-gray: A6A6A6;
----basic-red:283136;
-C1C1C1;
-EEEEEE;
-FB565A;
-888888;
-00CA74;
-EFC849;
-444444;
-E1E1E1;
-}
+  --basic-black: 000000;
+  --basic-white: FFFFFF;
+  --basic-light-gray: A6A6A6;
+  --basic-red:283136;
+  --basic-silver: C1C1C1;
+  --basic-lighter-gray:EEEEEE;
+  --basic-purple: FB565A;
+  --basic-dark-telegray:888888;
+  --basic-green:00CA74;
+  --basic-yellow:EFC849;
+  --basic-blue-black: 444444;
+  --basic-cian: e1e1e1;
+  ;
+  }
+
+  body {
+    min-width: 960px;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: var(--basic-white);
+    text-transform: uppercase;
+    background-color: var(--basic-white);
+    background-image: url("img/bg.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+
+    a {
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .main-navigation {
+      font-size: 16px;
+      line-height: 20px;
+      color: var(--basic-lighter-gray);
+      background-color: transparent;
+    }
+
+    .main-navigation-wrapper {
+      background-color: var(--basic-lighter-gray);
+    }
+
+    .site-navigation {
+      list-style: none;
+    }
+
+    .site-navigation-current a:not([href]) {
+      background-color: var(--basic-black);
+    }
+
+    /* User navigation */
+
+
+    .site-navigation a,
+    .user-navigation a {
+      color: var(--basic-black);
+    }
+
+    .site-navigation a:hover,
+    .site-navigation a:focus,
+    .user-navigation a:hover,
+    .user-navigation a:focus {
+      background-color: var(--basic-lighter-gray);
+    }
