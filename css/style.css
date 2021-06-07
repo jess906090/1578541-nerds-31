@@ -22,12 +22,30 @@
     font-size: 16px;
     line-height: 24px;
     font-weight: 700;
-    color: var(--basic-white);
+    color: var(--basic-black);
     text-transform: uppercase;
     background-color: var(--basic-white);
-    background-image: url("img/bg.jpg");
-    background-position: top center;
-    background-repeat: no-repeat;
+
+    .nerds-logo {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .nerds-logo img:hover,
+    .nerds-logo img:focus {
+      opacity: 0.8;
+      -webkit-transition: opacity 0.3s;
+           -o-transition: opacity 0.3s;
+              transition: opacity 0.3s;
+    }
+
+    .nerds-logo img:active {
+      opacity: 0.3;
+      -webkit-transition: opacity 0.3s;
+           -o-transition: opacity 0.3s;
+              transition: opacity 0.3s;
+    }
+
 
     a {
       text-decoration: none;
@@ -41,7 +59,9 @@
     .main-navigation {
       font-size: 16px;
       line-height: 20px;
-      color: var(--basic-lighter-gray);
+      left: 140px;
+      top: 0px;
+      color: var(--basic-black);
       background-color: transparent;
     }
 
@@ -57,7 +77,6 @@
       background-color: var(--basic-black);
     }
 
-    /* User navigation */
 
 
     .site-navigation a,
@@ -69,5 +88,6 @@
     .site-navigation a:focus,
     .user-navigation a:hover,
     .user-navigation a:focus {
-      background-color: var(--basic-lighter-gray);
+      background-color: var(--basic-red);
     }
+
