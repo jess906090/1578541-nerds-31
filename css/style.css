@@ -4,14 +4,13 @@
   --basic-light-gray: A6A6A6;
   --basic-red:283136;
   --basic-silver: C1C1C1;
-  --basic-lighter-gray:EEEEEE;
+  --basic-lighter-gray: EEEEEE;
   --basic-purple: FB565A;
-  --basic-dark-telegray:888888;
-  --basic-green:00CA74;
-  --basic-yellow:EFC849;
+  --basic-dark-telegray: 888888;
+  --basic-green: 00CA74;
+  --basic-yellow: EFC849;
   --basic-blue-black: 444444;
   --basic-cian: e1e1e1;
-  ;
   }
 
   body {
@@ -29,6 +28,11 @@
     .nerds-logo {
       display: inline-block;
       vertical-align: middle;
+      position: absolute;
+      width: 159.87px;
+      height: 65.02px;
+      left: 140px;
+      top: 48.98px;
     }
 
     .nerds-logo img:hover,
@@ -61,6 +65,8 @@
       margin: 0;
       padding: 0;
       overflow: hidden;
+      font-size: 16px;
+      line-height: 30px;
       border: 1px solid #e7e7e7;
       background-color: #f3f3f3;
     }
